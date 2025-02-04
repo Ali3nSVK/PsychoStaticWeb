@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologie - přijímací zkoušky</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+			color: #333;
+			background-color: #fafafa;
+        }
+		
+		h3 {
+			font-size: 1.4em;
+			color: #404040;
+			margin-top: 1.2em;
+			margin-bottom: 0.5em;
+		}
+
+        .sidebar {
+            width: 250px;
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+            padding: 15px;
+            overflow-y: auto;
+        }
+
+        .nav-menu {
+            list-style: none;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 8px;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 5px;
+        }
+
+        .nav-link:hover {
+            background-color: #e9ecef;
+        }
+
+        .content-frame {
+            flex-grow: 1;
+            border: none;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <nav class="sidebar">
+		<h3><div class="sidebar-header">Odborné okruhy</div></h3>
+		<hr class="solid">
+        <ul class="nav-menu">
+            <li><a href="./1dejiny_psych/dejiny.html" class="nav-link" target="content">1. Dějiny psychologie</a></li>
+			<li><a href="./2obecna_psych/obecna.html" class="nav-link" target="content">2. Obecná psychologie</a></li>
+        </ul>
+    </nav>
+
+    <iframe name="content" class="content-frame" src="./1dejiny_psych/dejiny.html"></iframe>
+</body>
+</html>
+
