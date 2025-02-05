@@ -30,5 +30,10 @@ This is a simple static website - just open `index.html` in your browser to view
 - Santrock, J. (2015). *A Topical Approach to Lifespan Development* (8th ed.). McGraw-Hill
 - Berk, L. E. (2017). *Development Through the Lifespan*
 
+### Chapter 4: Social Psychology
+- Hewstone, M., Stroebe, W., & Jonas, K. (Eds.). (2008). *Introduction to Social Psychology* (BPS Textbooks)
+- Aronson, E., Wilson, T. D., & Akert, R. M. (2015). *Social Psychology* (9th ed.)
+- Myers, D. G. (2009). *Social Psychology* (10th ed.). McGraw-Hill
+
 ---
 *Created for educational purposes. All content summarized using Google's Gemini 1.5 Pro.*

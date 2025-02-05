@@ -14,15 +14,15 @@ Length guidance:
 * If a topic cannot support 10000 words of meaningful content, it's better to be shorter than to add filler
 * If a topic has more crucial information, it can exceed 10000 words
 
-The output should be in Czech, regardless of the source material's language. This content is very long and you will have to provide the outline in multiple responses due to character limits. Do not compromise on quality or length because of this, you can do as many responses as necessary. After each response, I will send command "CONTINUE" and you will continue with the content generation. Reply "READY" if you understand instructions.
+The output should be in Czech, regardless of the source material's language. This content is long and you will have to provide the outline in multiple responses due to character limits. 
+Do not compromise on quality or length. After each response, I will send command "CONTINUE" and you will continue with the content generation. When done with outline, output "END". Reply "READY" if you understand instructions.
 
-Here is the content outline:
-3. Vývojová psychologie
-3.1. Vývojová psychologie – vymezení, předmět (pojem vývoj), cíle, metody, aplikační možnosti, příklady výzkumů
-3.2. Teorie vývojové psychologie – významní představitelé ve světě a u nás; proměny pohledu na dítě, jeho vývoj a výchovu; novější teorie vývoje
-3.3. Prenatální období, novorozenec, kojenec – faktory ovlivňující vývoj, interakce rodičů a dítěte, základní psychické potřeby dítěte, hlavní mezníky neuropsychického vývoje v prvním roce života 
-3.4. Období batolete, předškolní věk – hlavní vývojové trendy, specifické projevy vývoje osobnosti, dětská hra
-3.5. Vstup dítěte do školy, mladší školní věk – školní zralost, problémy adaptace, vývoj základních schopností a dovedností
-3.6. Dospívání – vymezení, různé přístupy k periodizaci období dospívání, hlavní vývojové úkoly, specifika dospívání v současné době
-3.7. Dospělost – dělení, vývojové úkoly, krize středního věku, problematika harmonizace pracovní a rodinné oblasti, změny v období stárnutí
-3.8. Stáří a smrt – časové ohraničení stáří, charakteristika, trend aktivního stáří, potřeby seniorů, vývojově psychologické aspekty umírání 
+4. Sociální psychologie
+4.1. Sociální psychologie – vymezení, aplikační možnosti, metody ověřování, významní představitelé
+4.2. Sociální poznávání - sociální percepce, formování dojmu, atribuční procesy
+4.3. Sociometrie – vývoj měření, typy měření, sociometrický test, limity metody
+4.4. Zátěžové situace -  životní události, agresivita, agrese
+4.5. Postoje – utváření postojů, složky a funkce postojů, změny postojů, metody měření postojů
+4.6. Skupiny -  různá dělení skupin, vztahy ke skupině, dynamika a skupinová interakce
+4.7. Osobní vztahy – afiliace, atraktivita, láska
+4.8. Sociální vliv a osobní kontrola – přítomnost druhých, konformita, kompliance, obedience
