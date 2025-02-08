@@ -35,5 +35,10 @@ This is a simple static website - just open `index.html` in your browser to view
 - Aronson, E., Wilson, T. D., & Akert, R. M. (2015). *Social Psychology* (9th ed.)
 - Myers, D. G. (2009). *Social Psychology* (10th ed.). McGraw-Hill
 
+### Chapter 5: Personality Psychology
+- Mischel, W., Shoda, Y., & Ayduk, O. (2008). *Introduction to Personality: Toward an Integrative Science* (8th ed.). Hoboken, NJ
+- McAdams, D. P. (2009). *Person: An Introduction to the Science of Personality* (5th ed.). Hoboken, NJ
+- Buss, D. M., & Larsen, R. J. (2021). *Personality Psychology: Domains of Knowledge About Human Nature* (7th ed.)
+
 ---
 *Created for educational purposes. All content summarized using Google's Gemini 1.5 Pro.*
