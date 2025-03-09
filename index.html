@@ -12,20 +12,27 @@
         }
 
         body {
-			font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            height: 100vh;
+            overflow: hidden;
+            color: #333;
+            background-color: #f8f9fa;
+            position: relative;
+        }
+        
+        h3 {
+            font-size: 1.4em;
+            color: #404040;
+            margin-top: 1.2em;
+            margin-bottom: 0.5em;
+        }
+
+        .container {
             display: flex;
             height: 100vh;
             overflow: hidden;
-			color: #333;
-			background-color: #fafafa;
+            position: relative;
         }
-		
-		h3 {
-			font-size: 1.4em;
-			color: #404040;
-			margin-top: 1.2em;
-			margin-bottom: 0.5em;
-		}
 
         .sidebar {
             width: 250px;
@@ -33,6 +40,9 @@
             border-right: 1px solid #dee2e6;
             padding: 15px;
             overflow-y: auto;
+            transition: transform 0.3s ease;
+            height: 100vh;
+            z-index: 100;
         }
 
         .nav-menu {
@@ -55,24 +65,124 @@
             flex-grow: 1;
             border: none;
             height: 100vh;
+            transition: margin-left 0.3s ease;
+            width: 100%;
+        }
+
+        .toggle-btn {
+            position: fixed;
+            left: 260px;
+            top: 15px;
+            z-index: 101;
+            background-color: #f8f9fa;
+            color: #333;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 8px 12px;
+            cursor: pointer;
+            transition: left 0.3s ease;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .toggle-btn:hover {
+            background-color: #e9ecef;
+        }
+
+        /* Sidebar collapsed state */
+        .sidebar-collapsed .sidebar {
+            transform: translateX(-250px);
+        }
+
+        .sidebar-collapsed .content-frame {
+            margin-left: 0;
+        }
+
+        .sidebar-collapsed .toggle-btn {
+            left: 15px;
+        }
+
+        hr.solid {
+            border-top: 1px solid #dee2e6;
+            margin-bottom: 10px;
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-250px);
+                position: fixed;
+            }
+
+            .content-frame {
+                margin-left: 0;
+                width: 100%;
+            }
+
+            .toggle-btn {
+                left: 15px;
+            }
+
+            /* Override for mobile when sidebar is active */
+            .sidebar-active .sidebar {
+                transform: translateX(0);
+            }
+
+            .sidebar-active .toggle-btn {
+                left: 260px;
+            }
         }
     </style>
 </head>
 <body>
-    <nav class="sidebar">
-		<h3><div class="sidebar-header">Odborné okruhy</div></h3>
-		<hr class="solid">
-        <ul class="nav-menu">
-            <li><a href="./1dejiny_psych/dejiny.html" class="nav-link" target="content">1. Dějiny psychologie</a></li>
-			<li><a href="./2obecna_psych/obecna.html" class="nav-link" target="content">2. Obecná psychologie</a></li>
-            <li><a href="./3vyvojova_psych/vyvojova.html" class="nav-link" target="content">3. Vývojová psychologie</a></li>
-            <li><a href="./4socialni_psych/socialni.html" class="nav-link" target="content">4. Sociální psychologie</a></li>
-			<li><a href="./5psych_osobnosti/osobnosti.html" class="nav-link" target="content">5. Psychologie osobnosti</a></li>
-        </ul>
-        </ul>
-    </nav>
+    <div class="container" id="container">
+        <button class="toggle-btn" id="toggle-btn">☰</button>
+        
+        <nav class="sidebar">
+            <h3><div class="sidebar-header">Odborné okruhy</div></h3>
+            <hr class="solid">
+            <ul class="nav-menu">
+                <li><a href="./1dejiny_psych/dejiny.html" class="nav-link" target="content">1. Dějiny psychologie</a></li>
+				<li><a href="./2obecna_psych/obecna.html" class="nav-link" target="content">2. Obecná psychologie</a></li>
+				<li><a href="./3vyvojova_psych/vyvojova.html" class="nav-link" target="content">3. Vývojová psychologie</a></li>
+				<li><a href="./4socialni_psych/socialni.html" class="nav-link" target="content">4. Sociální psychologie</a></li>
+				<li><a href="./5psych_osobnosti/osobnosti.html" class="nav-link" target="content">5. Psychologie osobnosti</a></li>
+				<li><a href="./6klinicka_psych/klinicka.html" class="nav-link" target="content">6. Klinická psychologie</a></li>
+            </ul>
+        </nav>
 
-    <iframe name="content" class="content-frame" src="./1dejiny_psych/dejiny.html"></iframe>
+        <iframe name="content" class="content-frame" src="./1dejiny_psych/dejiny.html"></iframe>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('toggle-btn');
+            const container = document.getElementById('container');
+            
+            function checkMobile() {
+                if (window.innerWidth <= 768) {
+                    container.classList.remove('sidebar-collapsed');
+                    container.classList.remove('sidebar-active');
+                } else {
+                    container.classList.remove('sidebar-active');
+                    container.classList.remove('sidebar-collapsed');
+                }
+            }
+            
+            checkMobile();
+            
+            toggleBtn.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    container.classList.toggle('sidebar-active');
+                } else {
+                    container.classList.toggle('sidebar-collapsed');
+                }
+            });
+            
+            window.addEventListener('resize', checkMobile);
+        });
+    </script>
 </body>
 </html>
-

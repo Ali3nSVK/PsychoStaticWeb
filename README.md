@@ -40,5 +40,10 @@ This is a simple static website - just open `index.html` in your browser to view
 - McAdams, D. P. (2009). *Person: An Introduction to the Science of Personality* (5th ed.). Hoboken, NJ
 - Buss, D. M., & Larsen, R. J. (2021). *Personality Psychology: Domains of Knowledge About Human Nature* (7th ed.)
 
+### Chapter 6: Clinical Psychology
+- Pomerantz, A. M. (2016). *Clinical Psychology: Science, Practice, and Culture*
+- Carr, A. (2006). *The Handbook of Child and Adolescent Clinical Psychology*. Taylor & Francis (Unlimited), London
+- Sadock, B. J., Sadock, V. A., & Ruiz, P. (2017). *Kaplan and Sadock's Comprehensive Textbook of Psychiatry* (vol. 1-2, 10)
+
 ---
 *Created for educational purposes. All content summarized using Google's Gemini 1.5 Pro.*
