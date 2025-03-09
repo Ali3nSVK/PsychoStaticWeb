@@ -45,5 +45,12 @@ This is a simple static website - just open `index.html` in your browser to view
 - Carr, A. (2006). *The Handbook of Child and Adolescent Clinical Psychology*. Taylor & Francis (Unlimited), London
 - Sadock, B. J., Sadock, V. A., & Ruiz, P. (2017). *Kaplan and Sadock's Comprehensive Textbook of Psychiatry* (vol. 1-2, 10)
 
+### Chapter 7: Applied Psychology
+- Bull, R., Cooke, C., Hatcher, R., & Woodhams, J. (n.d.). *Criminal Psychology: A Beginner's Guide (Beginner's Guides)*
+- Krug, S. (n.d.). *Don't Make Me Think: A Common Sense Approach to Web* (2nd ed.). Voices That Matter Ser
+- Fennis, B. M., & Stroebe, W. (2010). *The Psychology of Advertising* (2nd ed.). Taylor & Francis Ltd, Hove, East Sussex
+- Rothengatter, T., & Huguenin, R. D. (Eds.). (2004). *Traffic and Transport Psychology: Theory and Application* (1st ed.). Oxford, England
+- Conte, J. M., & Landy, F. J. (2019). *Work in the 21st Century: An Introduction to Industrial and Organizational Psychology* (6th ed.). John Wiley & Sons, Incorporated, US
+
 ---
 *Created for educational purposes. All content summarized using Google's Gemini 1.5 Pro.*
