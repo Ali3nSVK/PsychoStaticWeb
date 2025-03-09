@@ -7,6 +7,7 @@ A collection of psychology study materials presented as a static website, hosted
 - Access the website: `https://ali3nsvk.github.io/PsychoStaticWeb`
 - Content focuses on key psychology concepts and theories
 - Original source materials are not included in this repository
+- Based on entrance exam [syllabus](https://psych.upol.cz/uchazecum/prijimaci-zkousky/)
 
 ## 🛠️ Usage
 
@@ -45,7 +46,7 @@ This is a simple static website - just open `index.html` in your browser to view
 - Carr, A. (2006). *The Handbook of Child and Adolescent Clinical Psychology*. Taylor & Francis (Unlimited), London
 - Sadock, B. J., Sadock, V. A., & Ruiz, P. (2017). *Kaplan and Sadock's Comprehensive Textbook of Psychiatry* (vol. 1-2, 10)
 
-### Chapter 7: Applied Psychology
+### Chapter 7: Work and Organizational Psychology
 - Bull, R., Cooke, C., Hatcher, R., & Woodhams, J. (n.d.). *Criminal Psychology: A Beginner's Guide (Beginner's Guides)*
 - Krug, S. (n.d.). *Don't Make Me Think: A Common Sense Approach to Web* (2nd ed.). Voices That Matter Ser
 - Fennis, B. M., & Stroebe, W. (2010). *The Psychology of Advertising* (2nd ed.). Taylor & Francis Ltd, Hove, East Sussex
