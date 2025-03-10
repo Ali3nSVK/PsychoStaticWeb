@@ -53,5 +53,10 @@ This is a simple static website - just open `index.html` in your browser to view
 - Rothengatter, T., & Huguenin, R. D. (Eds.). (2004). *Traffic and Transport Psychology: Theory and Application* (1st ed.). Oxford, England
 - Conte, J. M., & Landy, F. J. (2019). *Work in the 21st Century: An Introduction to Industrial and Organizational Psychology* (6th ed.). John Wiley & Sons, Incorporated, US
 
+### Chapter 8: Biology
+- Mader, S. S., & Windelspecht, M. (2020). *Human Biology* (16th ed.)
+- Tortora, G. J., & Derrickson, B. H. (2013). *Principles of Anatomy and Physiology* (14th ed.)
+- Wingerd, B. (2008). *The Human Body: Essentials of Anatomy & Physiology* (Second color ed.). San Diego
+
 ---
 *Created for educational purposes. All content summarized using Google's Gemini 1.5 Pro.*
